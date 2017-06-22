@@ -15,6 +15,7 @@
         <mojarra-version>2.2.14</mojarra-version>
         <primefaces-version>5.0</primefaces-version>
         <webflow-version>2.4.4.RELEASE</webflow-version>
+        <hibernate-version>4.3.8.Final</hibernate-version>
     </properties>
 
     <dependencyManagement>
@@ -82,6 +83,12 @@
             <artifactId>javax.servlet-api</artifactId>
             <version>3.1.0</version>
             <scope>provided</scope>
+        </dependency>
+        <!--hibernate-->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>${hibernate-version}</version>
         </dependency>
     </dependencies>
 
